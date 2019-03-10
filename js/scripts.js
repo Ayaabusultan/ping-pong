@@ -27,22 +27,25 @@ $(document).ready(function() {
     numbers.forEach(function(){
       switch (numbers[index]){
         case "ping":
-          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
-          $("li#result").addClass("oval");
-          // $("li").css("margin-top","-450");
+          $("#result").append("<li class='oval-1'>"+numbers[index]+"</li>"+"<br>");
+          $(".oval-1").addClass("ping-oval");
+          // $(".oval-1").css("padding-left","40px");
           break;
         case "pong":
-          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
-          $("#result").addClass("oval");
+          $("#result").append("<li class='oval2'>"+numbers[index]+"</li>"+"<br>");
+          $(".oval2").addClass("pong-oval");
+
+
           break;
         case "Ping Pong":
-          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
-          $("#result").addClass("oval");
+          $("#result").append("<li class='oval3'>"+numbers[index]+"</li>"+"<br>");
+          $(".oval3").addClass("pingpong-oval");
+         // $(".oval3").css("padding-left","30px");
           break;
         default:
-          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
+          $("#result").append("<li class='num-circle'>"+numbers[index]+"</li>"+"<br>");
+          $(".num-circle").addClass("circle");
       }
-
       index++;
     });
 

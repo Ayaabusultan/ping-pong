@@ -3,11 +3,6 @@
   padding-left:30px;
 }
 
-.jumbotron-props{
-  background-color: #19194d;
-  color:white;
-}
-
 .first-flex{
   display: flex;
   flex-direction: row;
@@ -68,17 +63,7 @@
  margin-top: -681px;
  margin-left: -70px;
 }
- .tri2{
-   width:70%;
-   height:0px;
-   margin-top: 0px;
-   background-color:transparent;
-   border-left:580px solid transparent;
-   border-top: 680px solid yellow;
 
-   margin-top: -270px;
-   margin-left: -350px;
-  }
 #ping-pong{
   /* margin-top:-660px;
   margin-right: -400px; */
@@ -87,8 +72,9 @@
 .font-sizes{
   font-size: 20px;
 }
-.p-size{
-  font-size: 16px;
+.address{
+  color: #002b80;
+  font-size: 40px;
 }
 .info-padding{
   padding-left: 40px;
@@ -103,20 +89,49 @@
 
 li {
   list-style-type: none;
+
 }
 .li-props{
   list-style-type: circle;
 }
-.oval {
-      width: 50px;
-      height: 25px;
-      background: #ffb199;
-      border-radius: 50px / 25px;
-    }
+.ping-oval {
+  margin-left: 50px;
+  padding-left: 17px;
+  padding-top: 5px;
 
-/* .oval {
-      width: 100px;
-      height: 50px;
+      width: 60px;
+      height: 30px;
       background: #ffb199;
-      border-radius: 100px / 50px;
-    } */
+      border-radius: 60px / 30px;
+    }
+.pong-oval{
+  margin-left: 100px;
+  padding-top: 9px;
+  padding-left: 25px;
+
+  width: 80px;
+  height: 40px;
+  background: #ff8a66;
+  border-radius: 80px / 40px;
+
+}
+.pingpong-oval{
+  padding-top: 15px;
+  padding-left: 30px;
+  margin-left: 100px;
+  /* color: white; */
+  width: 120px;
+  height: 60px;
+  background: #ffb199;
+  border-radius: 100px / 50px;
+}
+.circle {
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  /* color: white; */
+  height: 40px;
+  width: 40px;
+  background-color: #ffebe6;
+  border-radius: 50%;
+}
