@@ -28,7 +28,6 @@ $(document).ready(function() {
       switch (numbers[index]){
         case "ping":
           $("#result").append("<li class='oval-1'>"+numbers[index]+"</li>"+"<br>");
-          $(".oval-1").addClass("ping-oval");
           // $(".oval-1").css("padding-left","40px");
           break;
         case "pong":
@@ -48,10 +47,8 @@ $(document).ready(function() {
       }
       index++;
     });
+    $(".oval-1").addClass("ping-oval");
 
   }); //for the submit
-
-
-
 
 }); //for the document
