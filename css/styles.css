@@ -1,5 +1,6 @@
 #result{
   display: none;
+  padding-left:30px;
 }
 
 .jumbotron-props{
@@ -7,10 +8,115 @@
   color:white;
 }
 
-
-#myAnimation {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  background: red;
+.first-flex{
+  display: flex;
+  flex-direction: row;
+  height:650px;
+  background-color: white;
+  height: 680px;
 }
+.sec-flex{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* margin-left: 10px; */
+  margin-left:-270px;
+  margin-top: -600px;
+}
+.tri{
+  width:80%;
+  height:0px;
+  margin-top: 0px;
+  background-color:transparent;
+  border-left:580px solid transparent;
+  border-top: 680px solid #ffece6;
+
+  margin-bottom: -130px;
+  margin-left: -182px;
+
+ }
+ .parallelogram {
+	width: 99px;
+	height: 681px;
+	transform: skew(45deg);
+	background: transparent;
+
+  border-left:100px solid white;
+  border-bottom: 681px solid white;
+
+  margin-top: -270px;
+  margin-left: -170px;
+}
+/* .par1 {
+ width: 100px;
+ height: 681px;
+ transform: skew(42deg);
+ background: #ffb399;
+
+ margin-top: -681px;
+ margin-left: -135px;
+} */
+.par2 {
+ width: 80px;
+ height: 681px;
+ transform: skew(45deg);
+ background: white;
+
+ border-left:100px solid #ff8a66;
+ border-bottom: 681px solid white;
+
+ margin-top: -681px;
+ margin-left: -70px;
+}
+ .tri2{
+   width:70%;
+   height:0px;
+   margin-top: 0px;
+   background-color:transparent;
+   border-left:580px solid transparent;
+   border-top: 680px solid yellow;
+
+   margin-top: -270px;
+   margin-left: -350px;
+  }
+#ping-pong{
+  /* margin-top:-660px;
+  margin-right: -400px; */
+  padding-left: 30px;
+}
+.font-sizes{
+  font-size: 20px;
+}
+.p-size{
+  font-size: 16px;
+}
+.info-padding{
+  padding-left: 40px;
+  font-weight: bold;
+}
+.col-md-4{
+  z-index: 1;
+}
+.col-md-8{
+  z-index: 2;
+}
+
+li {
+  list-style-type: none;
+}
+.li-props{
+  list-style-type: circle;
+}
+.oval {
+      width: 50px;
+      height: 25px;
+      background: #ffb199;
+      border-radius: 50px / 25px;
+    }
+
+/* .oval {
+      width: 100px;
+      height: 50px;
+      background: #ffb199;
+      border-radius: 100px / 50px;
+    } */

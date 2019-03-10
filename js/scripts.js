@@ -10,7 +10,7 @@ $(document).ready(function() {
     for (i=1; i<=input; i++){
       numbers.push(i);
     }
-    for (i=0; i<=input; i++){;
+    for (i=0; i<=input; i++){
       if (numbers[i] % 15 === 0){
         numbers.splice(i,1,"Ping Pong")
       }
@@ -25,7 +25,24 @@ $(document).ready(function() {
     var index= 0;
     $("#result").empty();
     numbers.forEach(function(){
-      $("#result").append("<li>"+numbers[index]+"</li>");
+      switch (numbers[index]){
+        case "ping":
+          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
+          $("li#result").addClass("oval");
+          // $("li").css("margin-top","-450");
+          break;
+        case "pong":
+          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
+          $("#result").addClass("oval");
+          break;
+        case "Ping Pong":
+          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
+          $("#result").addClass("oval");
+          break;
+        default:
+          $("#result").append("<li>"+numbers[index]+"</li>"+"<br>");
+      }
+
       index++;
     });
 
@@ -33,5 +50,5 @@ $(document).ready(function() {
 
 
 
-  
+
 }); //for the document

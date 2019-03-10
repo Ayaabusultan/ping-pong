@@ -10,34 +10,70 @@
   <body>
     <div class="container">
 
-      <div class="jumbotron jumbotron-props">
+      <!-- <div class="jumbotron jumbotron-props"> -->
         <h1>Ping Pong</h1>
         <br></br>
-      </div>
-        <form id="ping-pong">
-          <h3>Let's Play</h3>
-          <h4>Our game rules</h4>
-          <p>Ping pong will count up from 1 to your number with these 3 exceptions:</p>
-          <ol>
-            <li>Numbers divisible by 3 are replaced with "ping"</li>
-            <li>Numbers divisible by 5 are replaced with "pong"</li>
-            <li>Numbers divisible by 15 are replaced with "pingpong"</li>
-          </ol>
+      <!-- </div> -->
 
-          <div class="control-group">
-            <label for="num">Enter a number</label>
-            <input id="num" class="form-group" type="text">
+      <!-- <div class= "first-flex">
+
+      </div>   -->
+
+      <div class="first-flex">
+        <div class="row">
+
+        <div class="col-md-8">
+          <form id="ping-pong">
+            <h1>Let's Play</h1>
+            <!-- <hr> -->
+            <br>
+            <h4 class="font-sizes"><strong>Game rules:</strong></h4>
+            <p class="p-size">Ping pong will count up from 1 to your number with these 3 exceptions:</p>
+            <ol>
+              <li class="font-sizes li-props">Numbers divisible by 3 are replaced with "ping"</li>
+              <li class="font-sizes li-props">Numbers divisible by 5 are replaced with "pong"</li>
+              <li class="font-sizes li-props">Numbers divisible by 15 are replaced with "pingpong"</li>
+            </ol>
+            <br>
+            <div class="control-group">
+              <label class="font-sizes" for="num">Enter a number</label>
+              <input id="num" class="form-group" type="text">
+            </div>
+
+            <button class="btn btn-primary" type="submit">ping pong</button>
+
+          </form>
+          <br>
+
+          <div id="result">
+            <ul></ul>
           </div>
 
-          <button class="btn btn-primary" type="submit">ping pong</button>
+        </div> <!-- for the col 8 -->
 
-        </form>
-        <br>
-        <br>
+        <div class="col-md-4">
+          <div class="tri">
 
-        <div id="result">
-          <ul></ul>
-        </div>
+            <div class="sec-flex">
+              <h3>Created By:</h1>
+              <h4 class="info-padding">Aya Abusultan</h3>
+              <h3>Github Repo:</h3>
+              <h4 class="info-padding">ping-pong</h4>
+              <div class="parallelogram"></div>
+              <div class="par2"></div>
+
+            </div>   <!-- for sec flex -->
+
+
+
+          </div> <!-- fot tri -->
+      </div> <!-- for the col 4 -->
+
+      </div>   <!-- for the row -->
+
+    </div> <!-- for the first flex -->
+
+
 
 
 
