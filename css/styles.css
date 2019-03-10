@@ -43,13 +43,17 @@
   margin-left: -170px;
 }
 /* .par1 {
- width: 100px;
- height: 681px;
- transform: skew(42deg);
- background: #ffb399;
+ width: 120px;
+ height: 700px;
+ transform: skew(47deg);
+ background: white;
 
- margin-top: -681px;
- margin-left: -135px;
+ border-left:100px solid #ff8a00;
+ border-bottom: 818px solid white;
+
+
+ margin-top: -682px;
+ margin-left: -100px;
 } */
 .par2 {
  width: 80px;
@@ -60,13 +64,11 @@
  border-left:100px solid #ff8a66;
  border-bottom: 681px solid white;
 
- margin-top: -681px;
- margin-left: -70px;
+ margin-top: -682px;
+ margin-left: -68px;
 }
 
 #ping-pong{
-  /* margin-top:-660px;
-  margin-right: -400px; */
   padding-left: 30px;
 }
 .font-sizes{
