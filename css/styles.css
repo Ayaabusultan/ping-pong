@@ -57,7 +57,7 @@
 } */
 .par2 {
  width: 80px;
- height: 681px;
+ height: 666px;
  transform: skew(45deg);
  background: white;
 
@@ -65,7 +65,7 @@
  border-bottom: 681px solid white;
 
  margin-top: -682px;
- margin-left: -68px;
+ margin-left: -66px;
 }
 
 #ping-pong{
@@ -78,6 +78,7 @@
   color: #002b80;
   font-size: 50px;
   font-weight: bold;
+  /* text-align: center; */
 }
 .info-padding{
   padding-left: 40px;
@@ -98,43 +99,45 @@ li {
   list-style-type: circle;
 }
 .ping-oval {
-  margin-left: 50px;
-  padding-left: 17px;
-  padding-top: 5px;
+  margin-left: 60px;
+  padding-left: 27px;
+  padding-top: 8px;
 
-      width: 60px;
-      height: 30px;
+      width: 80px;
+      height: 40px;
       background: #ffb199;
-      border-radius: 60px / 30px;
+      border-radius: 50%;
     }
 .pong-oval{
-  margin-left: 100px;
-  padding-top: 9px;
-  padding-left: 25px;
+  margin-left: 110px;
+  padding-top: 13px;
+  padding-left: 34px;
 
-  width: 80px;
-  height: 40px;
+  width: 100px;
+  height: 50px;
   background: #ff8a66;
-  border-radius: 80px / 40px;
-
+  border-radius: 50%;
 }
 .pingpong-oval{
-  padding-top: 15px;
-  padding-left: 30px;
-  margin-left: 100px;
-  /* color: white; */
-  width: 120px;
-  height: 60px;
+  padding-top: 27px;
+  padding-left: 50px;
+  margin-left: 130px;
+
+  width: 160px;
+  height: 80px;
   background: #ffb199;
-  border-radius: 100px / 50px;
+  border-radius: 50%;
 }
 .circle {
   margin-left: 15px;
   padding-left: 15px;
   padding-top: 10px;
-  /* color: white; */
+
   height: 40px;
   width: 40px;
-  background-color: #ffebe6;
   border-radius: 50%;
+  background-color: #ffebe6;
+}
+a{
+  color:inherit;
 }

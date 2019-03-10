@@ -30,25 +30,34 @@ $(document).ready(function() {
           $("#result").append("<li class='oval-1'>"+numbers[index]+"</li>"+"<br>");
           // $(".oval-1").css("padding-left","40px");
           break;
+
         case "pong":
           $("#result").append("<li class='oval2'>"+numbers[index]+"</li>"+"<br>");
-          $(".oval2").addClass("pong-oval");
-
-
           break;
+
         case "Ping Pong":
           $("#result").append("<li class='oval3'>"+numbers[index]+"</li>"+"<br>");
-          $(".oval3").addClass("pingpong-oval");
-         // $(".oval3").css("padding-left","30px");
           break;
+
         default:
           $("#result").append("<li class='num-circle'>"+numbers[index]+"</li>"+"<br>");
-          $(".num-circle").addClass("circle");
       }
       index++;
     });
+
     $(".oval-1").addClass("ping-oval");
+    $(".oval2").addClass("pong-oval");
+    $(".oval3").addClass("pingpong-oval");
+    $(".num-circle").addClass("circle");
+    //
+    // $(".circle").mouseover(function(){
+    //   $("li.num-circle").removeClass();
+    //   $(".num-circle").css("addClass","ping-oval");
+    // });
+    // $(".circle").mouseout(function(){
+    //   $("li.num-circle").removeClass();
+    //   $("li.num-circle").addClass("circle");
+    // });
 
   }); //for the submit
-
 }); //for the document
