@@ -49,6 +49,55 @@ $(document).ready(function() {
     $(".oval2").addClass("pong-oval");
     $(".oval3").addClass("pingpong-oval");
     $(".num-circle").addClass("circle");
+
+
+
+    $(".circle").mouseover(function(event){
+      event.target.style.background = "pink";
+      event.target.style.width= "45px";
+      event.target.style.height= "45px";
+    });
+    $(".circle").mouseout(function(event){
+      event.target.style.background = "#ffebe6";
+      event.target.style.width= "40px";
+      event.target.style.height= "40px";
+    });
+
+    $(".ping-oval").mouseover(function(event){
+      event.target.style.background = "pink";
+      event.target.style.width= "90px";
+      event.target.style.height= "45px";
+    });
+    $(".ping-oval").mouseout(function(event){
+      event.target.style.background = "#ffb199";
+      event.target.style.width= "80px";
+      event.target.style.height= "40px";
+    });
+
+    $(".pong-oval").mouseover(function(event){
+      event.target.style.background = "pink";
+      event.target.style.width="110px";
+      event.target.style.height="55px";
+    });
+    $(".pong-oval").mouseout(function(event){
+      event.target.style.background = "#ff8a66";
+      event.target.style.width="100px";
+      event.target.style.height="50px";
+    });
+
+    $(".pingpong-oval").mouseover(function(event){
+      event.target.style.background = "pink";
+      event.target.style.width="170px";
+      event.target.style.height="85px";
+    });
+    $(".pingpong-oval").mouseout(function(event){
+      event.target.style.background = "#ffb199";
+      event.target.style.width="160px";
+      event.target.style.height="80px";
+    });
+
+
+
     //
     // $(".circle").mouseover(function(){
     //   $("li.num-circle").removeClass();
