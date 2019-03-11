@@ -44,16 +44,15 @@
 }
 /* .par1 {
  width: 120px;
- height: 700px;
- transform: skew(47deg);
- background: white;
+ height: 400px;
+ transform: skew(43deg);
+ background: transparent;
 
- border-left:100px solid #ff8a00;
- border-bottom: 818px solid white;
+ border-left:70px solid #ff8a00;
+ border-bottom: 730px solid transparent;
 
-
- margin-top: -682px;
- margin-left: -100px;
+ margin-top: -681px;
+ margin-left: -130px;
 } */
 .par2 {
  width: 80px;
@@ -72,6 +71,10 @@
   padding-left: 30px;
 }
 .font-sizes{
+  font-size: 20px;
+  font-family: Helvetica Neue;
+}
+.font{
   font-size: 20px;
 }
 .address{
